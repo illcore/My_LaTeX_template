@@ -1,1 +1,1 @@
-# My_LaTeX_template
+# My LaTeX template for my pre-preprints/proceedings/papers.
