@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+ \geometry{a4paper,
+ total={160mm,250mm},
+ left=20mm,
+ right=20mm,
+ top=20mm,
+ }
+\usepackage{makeidx}
+\usepackage[T1]{fontenc}
+\usepackage[dvipsnames,svgnames,table]{xcolor}
+\usepackage{epstopdf}
+\usepackage{epsfig}
+\usepackage{textcomp}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{lastpage}
+\usepackage{hyperref} 
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{threeparttable}
+\usepackage{float}
+\usepackage{array}
+\usepackage{cite}
+\usepackage{color,soul}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage{longtable}
+\usepackage{doi}
+\pagenumbering{arabic}
+\newcommand{\sgn}{ext{sgn}}
+\renewcommand\refname{\normalsize{\bf References}}
+\newcommand\bibsection{%
+ \section*{\bibname\markright{\MakeUppercase{\bibname}}}}
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+   {-2.5ex \@plus -1ex \@minus -.2ex}%
+   {2.3ex \@plus.2ex}%
+   {\normalfont\large\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{1}{\z@}%
+   {-2.5ex \@plus -1ex \@minus -.2ex}%
+   {2.3ex \@plus.2ex}%
+   {\small\bfseries}}
+
+\begin{document}
+\bigskip
+\title{\textbf{Title here.}}
+\medskip
+\author{\small Name here.$^{1}$}
+\medskip
+\date{\small$^1$Affiliation here.}
+\maketitle
+\begin{abstract}
+Abstract here.
+\end{abstract}
+\textbf{\textit{Keywords: }} Keywords here.
+\section{Introduction}
+\label{Intro}
+Introduction here.
+\bibliographystyle{elsarticle-num} 
+\end{document}    
